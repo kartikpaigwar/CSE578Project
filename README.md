@@ -5,7 +5,7 @@ This repository includes the codebase for final project.
 
 The docker installation gives you a clean containerized Ubuntu 20.04 environment which you can run on Mac OS or any Unix based kernel.
 
-1. Install Docker in your system if not already installed
+1. Install Docker in your system if not already installed.
 2. Clone this repository and `cd CSE578Project`. 
 3. Buid the docker image : `make build`.
 4. Launch and enter the docker container: `make run`.
