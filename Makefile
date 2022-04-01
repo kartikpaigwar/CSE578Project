@@ -8,7 +8,7 @@ clean-build:
 run:
 	#docker run cse578-project
 	docker run -it -p 8888:8888 \
-	--volume=$PWD:/home/CSE578/ \
+	--volume=${PWD}:/home/CSE578/ \
 	cse578-project bash
 
 release:
