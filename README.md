@@ -43,13 +43,13 @@ Note: to add any other supporting libraries, append the library name in the `req
      ```
 2. Create a virtual environment
      ```bash
-     virtualenv <my_env_name>
+     virtualenv my_env_name
      ```
 
    - now activate env
    
      ```bash
-     source <my_env_name/bin/activate>
+     source my_env_name/bin/activate
      ```
 3. Clone this repository and `cd CSE578Project`. 
 
