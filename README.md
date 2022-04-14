@@ -15,7 +15,7 @@ The docker installation gives you a clean containerized Ubuntu 20.04 environment
 
 Note: to add any other supporting libraries, append the library name in the `requirements.txt` and repeat the above steps.
 
-### (Option 2) Virtualenv/Anaconda ###
+### (Option 2) Anaconda ###
 
 1. Install Anaconda.
 2. Create python3.9 virtual environment
@@ -27,6 +27,29 @@ Note: to add any other supporting libraries, append the library name in the `req
    
      ```bash
      conda activate cse578
+     ```
+3. Clone this repository and `cd CSE578Project`. 
+
+4. Install all the requirements 
+   ```bash
+     pip install -r requirements.txt
+     ```
+
+### (Option 3) virtualenv ###
+
+1. Install virtualenv
+     ```
+     pip install virtualenv
+     ```
+2. Create a virtual environment
+     ```bash
+     virtualenv <my_env_name>
+     ```
+
+   - now activate env
+   
+     ```bash
+     source <my_env_name/bin/activate>
      ```
 3. Clone this repository and `cd CSE578Project`. 
 
